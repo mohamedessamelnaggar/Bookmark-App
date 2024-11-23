@@ -1,0 +1,169 @@
+/** ==========================  Main Body   ================================= */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+
+
+body {
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+
+.main-title h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    color: #352e28;
+    isolation: isolate;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.main-title h1::before {
+    content: "";
+    background-color: #fec260;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    bottom: 3px;
+    transition: height 350ms;
+    z-index: -1;
+
+}
+
+.main-title h1:hover::before {
+    height: 60%;
+
+}
+
+/** ==========================  Bookmark Body   ================================= */
+
+
+.btn-submit {
+    color: white;
+    background-color: #d1512d;
+    width: 150px;
+    align-self: center;
+
+}
+
+.btn-submit:hover {
+    background-color: #bb4120;
+    color: white;
+    border-color: #a03315;
+
+}
+
+.bookmark-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+.btn-visit {
+    color: white;
+    background-color: #9eb23b;
+    border-color: #9eb23b;
+}
+
+.btn-visit:hover {
+    background-color: #8a9e23;
+    border-color: #6e8018;
+    color: white;
+}
+
+.btn-delete {
+    color: white;
+    background-color: #eb1d36;
+    border-color: #eb1d36;
+}
+
+.btn-delete:hover {
+    color: white;
+    background-color: #d30820;
+    border-color: #ba081d;
+}
+
+.btn-update {
+    color: white;
+    background-color: #c5ba43;
+    border-color: #c5ba43;
+}
+
+.btn-update:hover {
+    color: white;
+    background-color: #b5ac49;
+    border-color: #b5ac49;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+
+/** ==========================  Modal Body   ================================= */
+
+.box-info {
+    background-color: #0007;
+}
+
+.box-content {
+    width: 500px;
+    z-index: 10;
+}
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.circle-1 {
+    background-color: #f15f5d;
+}
+
+.circle-2 {
+    background-color: #febe2e;
+}
+
+.circle-3 {
+    background-color: #4db748;
+}
+
+.modal-p {
+    font-family: "Bree Serif", serif !important;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+
+.rules i {
+    color: #bb4120;
+}
+
+.rules li {
+    font-size: 18px;
+    padding-top: 10px;
+}
